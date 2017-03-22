@@ -21,7 +21,7 @@ def main():
         element = [items[0], items[1]]
         if id in dict1.keys():
             for word in word_list:
-                if word in dict2.keys():
+                if word in dict2.keys(): 
                     if element == ['truthful', 'negative']:
                         dict2[word][0]+=1
                         tn1+=1
